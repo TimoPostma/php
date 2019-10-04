@@ -1,0 +1,33 @@
+Pannenkoek versie 7
+
+Toegevoegd:
+- public/cms/rubriek/delete.php (delete-request van de rubrieken-CRUD)
+
+Aangepast:
+- PATH_TO_ROOT (is nu het pad naar de webroot ipv naar de applicatieroot)
+
+================================================================
+
+Pannenkoek versie 6 (basis)
+
+Classes
+- classes/model.class.php (de parent class van de tabel-classes)
+- classes/mypdo.class.php (de database-connectie)
+- classes/rubriek.class.php (de class rond de tabel rubrieken)
+- classes/session.class.php (de sessie)
+
+Navigatie
+- html/cmsmenu.php (de include-file voor de cms-navigatie)
+
+Init
+- include/init.php (de include-file voor alle requests)
+
+Rubriek-CRUD
+- public/cms/rubriek/create.php
+- public/cms/rubriek/edit.php
+- public/cms/rubriek/index.php
+- public/cms/rubriek/save.php
+- public/cms/rubriek/update.php
+
+Styling
+- public/css/cms.css (styling voor de cms-requests)

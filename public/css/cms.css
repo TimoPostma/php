@@ -1,0 +1,113 @@
+BODY {
+    font-family: tahoma;
+}
+
+DIV.container {
+    margin: 0px auto;
+}
+
+NAV UL LI {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+NAV UL LI A {
+    text-decoration: none;
+    color: black;
+}
+NAV UL LI A:hover {
+    text-decoration: none;
+    color: #FFC805;
+}
+NAV UL LI.active A {
+    color: #FFC805;
+    font-weight: bold;
+}
+
+.message {
+    color: green;
+}
+.error {
+    color: red;
+}
+
+DIV.right {
+    text-align: right;
+}
+FORM.inline, FORM.inline LABEL, FORM.inline SELECT, FORM.inline INPUT {
+    display: inline;
+    margin: 5px 0px;
+}
+FORM.inline LABEL {
+    margin-left: 20px;
+}
+
+TABLE.inline {
+    display: inline;
+    margin-right: 20px;
+}
+
+TABLE.index {
+    border-collapse: collapse;
+}
+
+TABLE.index TBODY TR:nth-child(even) {
+    background-color: #F0E8D0;
+}
+TABLE.index TBODY TR:nth-child(odd) {
+    background-color: white;
+}
+TABLE.index TD {
+    padding: 2px 10px;
+}
+TABLE.index TD.rightalign {
+    text-align: right;
+}
+TABLE.index TD.check {
+    text-align: center;
+    color: #404040;
+}
+TABLE.index TFOOT TD, TABLE.index THEAD TD {
+    font-weight: bold;
+    background-color: #FFC805;     
+}
+TABLE.index TFOOT TD {
+    border-top: solid 1px black;    
+}
+TABLE.index THEAD TD {
+    border-bottom: solid 2px black;
+}
+TABLE.index TBODY TD.icon {
+    color: #F0F0F0;
+}
+TABLE.index TBODY TD.icon A {
+    color: #808080;
+}
+TABLE.index TBODY TD.icon A:hover {
+    color: blue;
+}
+TABLE.index td.label {
+    font-weight: bold;
+}
+
+LABEL {
+    display: block;
+    margin-bottom: 3px;
+}
+LABEL IMG {
+    display: block;
+    margin-top: 3px;
+}
+
+INPUT, TEXTAREA, SELECT {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+INPUT.inline {
+    display: inline;
+}
+INPUT.button {
+    margin-top: 20px;
+    cursor: pointer;
+}
